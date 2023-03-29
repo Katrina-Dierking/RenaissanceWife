@@ -16,6 +16,7 @@
         flex-direction: row;
         justify-content: space-between;
         width: 75vw;
+        height: 50vh;
     }
 
     .mainLeft {
@@ -24,6 +25,11 @@
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
+    }
+
+    .mainLeft img {
+        height: 40vh;
+        width: 20vw;
     }
     .mainRight {
         border: 2px solid black;

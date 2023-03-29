@@ -1,5 +1,6 @@
 import React from 'react'
 import './main.scss'
+import Lana from '../../images/Lana.JPG'
 
 
 function Main() {
@@ -7,7 +8,7 @@ function Main() {
 
     <section className='main'>
     <div className='mainLeft'>
-    <img src="" alt="Lana Vaughn" />
+    <img src={Lana} alt="Lana Vaughn" />
     <p> Welcome to Ren Wife</p>
     
     </div>
