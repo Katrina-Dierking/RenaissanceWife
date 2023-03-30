@@ -3,6 +3,7 @@ import './home.scss'
 import Layout from '../../components/layout/Layout'
 import Main from '../../components/main/Main'
 import Bottom from '../../components/bottom/Bottom'
+import Events from '../events/Events'
 
 function Home() {
   return (

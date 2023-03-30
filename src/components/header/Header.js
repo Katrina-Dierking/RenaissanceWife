@@ -19,7 +19,7 @@ function Header() {
           </a>
         </li>
         <li>
-          <a href="#">EVENTS</a>
+          <a href="events" target={"blank"}>EVENTS</a>
         </li>
         <li>
           <a href="#">GALLERY</a>
