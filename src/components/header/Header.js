@@ -1,10 +1,13 @@
 import React from 'react'
 import './header.scss'
+import wife from '../../images/wife.png'
+import spacer from '../../images/spacer3.png'
 
 function Header() {
   return (
     <header>
       <nav>
+      <img src={wife} className="renLogo" alt="ren wife logo with sword" />
         <li>
           <a href="#">Blog</a>
         </li>
@@ -18,6 +21,7 @@ function Header() {
           <a href="#">Contact</a>
         </li>
       </nav>
+      <img src={spacer} className='spacer' alt="colored spacer" />
     </header>
   );
 }
