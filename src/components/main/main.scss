@@ -20,16 +20,15 @@
         margin-top: 3%;
     }
 
-    .main img {
-     background-color: wheat;
-    }
+
     .mainMiddle {
         display:flex;
         align-items: center;
         flex-direction: row;
         width: 90vw;
         height: 30vh;
-        background-color: wheat;
+        background-color: whitesmoke;
+        opacity: 0.5;
     }
     .mainLeft {
         width: 35vw;

@@ -8,7 +8,10 @@ function Main() {
 
     <section className='main'>
 
+      <div className='imgBox'>
+      
       <img src={hostess} alt="Lana Vaughn" />
+      </div>
 
       <section className='mainMiddle'>
 

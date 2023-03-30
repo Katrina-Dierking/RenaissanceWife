@@ -9,7 +9,7 @@ function Header() {
       <nav>
       <img src={wife} className="renLogo" alt="ren wife logo with sword" />
         <li>
-          <a href="#">Blog</a>
+          <a href="https://www.blog.renaissancewife.com">Blog</a>
         </li>
         <li>
           <a href="#">Events</a>
