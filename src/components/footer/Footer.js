@@ -7,16 +7,16 @@ function Footer() {
     <nav>
     
       <li>
-        <a href="#">Facebook</a>
+        <a href="#">FACEBOOK</a>
       </li>
       <li>
-        <a href="#">YouTube</a>
+        <a href="#">YOUTUBE</a>
       </li>
       <li>
-        <a href="#">Pinterest</a>
+        <a href="#">PINTERST</a>
       </li>
       <li>
-        <a href="#">Blog</a>
+        <a href="#">BLOG</a>
       </li>
     </nav>
     

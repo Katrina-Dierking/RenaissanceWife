@@ -10,7 +10,7 @@
 /* //desktop */
 @media screen  and (min-width: 768px) {
 
-    nav {
+    .headerNav {
         display:flex;
         flex-direction: row;
         justify-content: space-evenly;
@@ -24,18 +24,17 @@
         width: 150px;
     }
     
-    a {
+    .headerNav a {
         // clip-path: polygon(15% 0%, 55% 0%, 80% 50%, 55% 100%, 15% 100%, 0% 30%);
         text-decoration: none;
         color:black;
-        background-color: lightgrey;
         padding: 10%;
     }
-
-    a:hover {
+    
+    .headerNav a:hover {
         background:white;
         cursor:pointer;
-        border: 3px solid teal;
+        border: 2px solid #800020;
     }
 
     .renLogo {

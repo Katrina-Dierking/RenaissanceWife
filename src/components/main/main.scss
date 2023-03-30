@@ -25,23 +25,20 @@
         display:flex;
         align-items: center;
         flex-direction: row;
+        justify-content: space-evenly;
         width: 90vw;
         height: 30vh;
         background-color: white;
         opacity: 0.7;
-        box-shadow: 10px 10px 15px lightgrey;   
+        // box-shadow: 10px 10px 15px lightgrey;   
      }
-    .mainLeft {
-        width: 35vw;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-        // background-color: yellow;
-    }
 
-    .mainRight {
-        width: 60vw;
+
+    .mainLeft, .mainRight {
+        width: 35vw;
+        padding: 2%;
+        margin: 1%;
+        box-shadow: 10px 10px 15px lightgrey;  
     }
     
 }

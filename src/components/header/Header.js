@@ -7,7 +7,7 @@ import header from '../../images/Header-Img.png'
 function Header() {
   return (
     <header>
-      <nav>
+      <nav className = "headerNav">
       <img src={wife} className="renLogo" alt="ren wife logo with sword" />
         <li>
           <a 
@@ -15,17 +15,17 @@ function Header() {
             target={'blank'}
             aria-label="Renaissance Wife Blog page"
             >
-            Blog
+            BLOG
           </a>
         </li>
         <li>
-          <a href="#">Events</a>
+          <a href="#">EVENTS</a>
         </li>
         <li>
-          <a href="#">Gallery</a>
+          <a href="#">GALLERY</a>
         </li>
         <li>
-          <a href="#">Contact</a>
+          <a href="#">CONTACT</a>
         </li>
       </nav>
       <img src={header} className='headerImg' alt = "logo"/>

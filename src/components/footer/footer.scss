@@ -13,7 +13,24 @@
  footer {
     background-color: black;
     color:white;
-    width: 100vw;
+    width: 98vw;
+    height: 15vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1%;
+ }
+
+ footer nav {
+   display:flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   
+ }
+
+ footer nav a {
+   text-decoration: none;
+   color:white;
  }
     
 }
