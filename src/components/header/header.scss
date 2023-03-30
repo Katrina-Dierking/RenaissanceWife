@@ -10,7 +10,6 @@
 /* //desktop */
 @media screen  and (min-width: 768px) {
 
-
     nav {
         display:flex;
         flex-direction: row;
@@ -18,15 +17,25 @@
         align-items: center;
         width: 100vw;
         padding: 0 3%;
-        margin:auto 0;
+        margin:auto 0; 
     }
     li {
         list-style: none;
+        width: 150px;
     }
-
+    
     a {
+        // clip-path: polygon(15% 0%, 55% 0%, 80% 50%, 55% 100%, 15% 100%, 0% 30%);
         text-decoration: none;
         color:black;
+        background-color: lightgrey;
+        padding: 10%;
+    }
+
+    a:hover {
+        background:white;
+        cursor:pointer;
+        border: 3px solid teal;
     }
 
     .renLogo {
@@ -38,6 +47,7 @@
     .spacer {
         width: 100vw;
         height: 7vh;
+        box-shadow: 10px 10px 15px lightgrey;   
     }
 
         .headerImg {
