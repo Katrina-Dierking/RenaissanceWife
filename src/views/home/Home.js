@@ -12,6 +12,7 @@ function Home() {
       
         <Main />
         <Bottom />
+        <Events />
       </section>
     </Layout>
   )

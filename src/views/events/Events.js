@@ -2,12 +2,25 @@ import React from 'react'
 import Layout from '../../components/layout/Layout'
 import './events.scss'
 
+import clemens from '../../images/MountClemens.png'
+import band from '../../images/bathtubBand.png'
+import writers from '../../images/writersGroup.png'
+
 function Events() {
   return (
 
     <Layout>
         <section className='events' aria-label = 'events page'>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi incidunt impedit earum nobis odit suscipit omnis, eveniet maxime fuga odio aut nemo ex, eaque fugiat provident labore eligendi veniam cupiditate.</p>
+            <div className='eventsTop'>
+                <img src = {writers} alt = "writers group meeting" />
+                <img src={clemens} alt="flyer for Mount Clemens Saturday workshop" />
+            
+            </div>
+            <div className='eventsBottom'>
+            
+                <img src = {band} alt = "bathtub band flyer" />
+                <button type="submit" className='eventsBut'>LEARN MORE</button>
+            </div>
         </section>
     </Layout>
   )

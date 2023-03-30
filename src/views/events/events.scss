@@ -1,3 +1,35 @@
 .events {
     border: 1px solid black;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.eventsTop {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.eventsTop img {
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+}
+
+
+.eventsBottom{
+        display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center;
+}
+.eventsBottom img {
+    width: 500px; 
+    height: 750px;
+
+}
+
+.eventsBut {
+    width: 10%;
 }
