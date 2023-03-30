@@ -5,12 +5,7 @@
   align-items: center;
   background-image: url("images/marble.jpg");
   background-attachment: fixed;
+  width: 100vw;
 }
 
 
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
