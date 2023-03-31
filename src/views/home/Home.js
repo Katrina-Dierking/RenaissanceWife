@@ -11,11 +11,10 @@ function Home() {
   return (
     <Layout>
       <section className="home">
-        <img src={header} className="headerImg" alt="logo" />
+        <img src={header} className="topNavImg" alt="logo" />
         <img src={spacer} className="spacer" alt="colored spacer" />
         <Main />
         <Bottom />
-        <Events />
       </section>
     </Layout>
   );

@@ -1,14 +1,15 @@
 import React from 'react'
-import Header from '../header/Header'
-import Footer from '../footer/Footer'
 
-function Layout({title, children}) {
+import Footer from '../footer/Footer'
+import TopNav from '../nav/TopNav'
+
+function Layout({children}) {
   return (
-<section className = "layout"> 
-    <Header />
-    <main>{children}</main>
-    <Footer />
-</section>
+    <section className = "layout"> 
+        <TopNav />
+          <main>{children}</main>
+        <Footer />
+    </section>
   )
 }
 

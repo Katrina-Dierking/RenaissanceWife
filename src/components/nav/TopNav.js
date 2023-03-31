@@ -1,18 +1,19 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import './header.scss'
+import './topNav.scss'
+
 import wife from '../../images/wife.png'
 import spacer from '../../images/spacer3.png'
-import header from '../../images/Header-Img.png'
 
-function Header() {
+function TopNav() {
   return (
-    <header>
-      <nav className="headerNav">
+    <>
+      <section className="topNav">
         <img src={wife} className="renLogo" alt="ren wife logo with sword" />
         <li>
           <Link to="/">HOME</Link>
         </li>
+
         <li>
           <a
             href="https://www.blog.renaissancewife.com"
@@ -22,18 +23,22 @@ function Header() {
             BLOG
           </a>
         </li>
+
         <li>
           <Link to="/events">EVENTS</Link>
         </li>
+
         <li>
           <Link to="/gallery">GALLERY</Link>
         </li>
+
         <li>
           <Link to="/contact">CONTACT</Link>
         </li>
-      </nav>
-    </header>
+      </section>
+      <img src={spacer} className = "spacer" alt="marbled spacer" />
+    </>
   );
 }
 
-export default Header
+export default TopNav

@@ -10,7 +10,7 @@
 /* //desktop */
 @media screen  and (min-width: 768px) {
 
-    .headerNav {
+    .topNav {
         display:flex;
         flex-direction: row;
         justify-content: space-evenly;
@@ -24,14 +24,14 @@
         width: 150px;
     }
     
-    .headerNav a {
+    .topNav a {
         // clip-path: polygon(15% 0%, 55% 0%, 80% 50%, 55% 100%, 15% 100%, 0% 30%);
         text-decoration: none;
         color:black;
         padding: 10%;
     }
     
-    .headerNav a:hover {
+    .topNav a:hover {
         background:white;
         cursor:pointer;
         border: 2px solid #800020;
@@ -49,7 +49,7 @@
         box-shadow: 10px 10px 15px lightgrey;   
     }
 
-        .headerImg {
+        .topNavImg {
             width: 100vw;
             height: 30vh;
         }
