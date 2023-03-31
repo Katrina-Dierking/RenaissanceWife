@@ -32,8 +32,6 @@ function Header() {
           <Link to="/contact">CONTACT</Link>
         </li>
       </nav>
-      <img src={header} className="headerImg" alt="logo" />
-      <img src={spacer} className="spacer" alt="colored spacer" />
     </header>
   );
 }

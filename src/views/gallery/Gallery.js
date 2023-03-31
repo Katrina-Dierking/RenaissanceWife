@@ -1,8 +1,14 @@
 import React from 'react'
+import Layout from '../../components/layout/Layout'
 
 function Gallery() {
   return (
-    <div>Gallery</div>
+    <Layout>
+      <section className="gallery">
+        <h1>GALLERY</h1>
+      </section>
+    
+    </Layout>
   )
 }
 
