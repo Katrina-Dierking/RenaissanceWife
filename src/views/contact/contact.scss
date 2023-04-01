@@ -1,8 +1,8 @@
 .contact {
-    border: 2px solid black;
-    width: 40vw;
+    width: 70vw;
+    height: 100vh;
     margin: 0 auto;
-    padding: 3%;
+    padding: 1%;
 }
 
 .form{
@@ -10,8 +10,32 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    padding: 10%;
+    margin: 2%;
+
+    background-color: whitesmoke;
+}
+
+.inputs {
+    width: 50vw;
+}
+
+.inputs input {
+    margin: 3%;
+}
+.textarea {
+    width: 50vw;
+  height: 30vh;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
 }
 
 .button {
     width: 5vw;
+    margin-top: 3%;
 }

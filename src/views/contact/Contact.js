@@ -20,20 +20,33 @@ function Contact() {
       <section className="contact">
         <h1>CONTACT</h1>
         <form onSubmit={handleSubmit} className="form">
-          <label>
-            <input
-              type="text"
-              value={inputValue}
-              placeholder="First name"
-              onChange={handleChange}
-            />
-          </label>
+        <div className="inputs">
+        
+        <label>
+          <input
+            type="text"
+            value={inputValue}
+            placeholder="First name"
+            onChange={handleChange}
+          />
+        </label>
+
+        <label>
+          <input
+            type="text"
+            value={inputValue}
+            placeholder="Email address"
+            onChange={handleChange}
+          />
+        </label>
+        </div>
 
           <label>
-            <input
-              type="text"
+            <input 
+              type="textarea"
+              className="textarea"
               value={inputValue}
-              placeholder="Email address"
+              placeholder="Enter your message"
               onChange={handleChange}
             />
           </label>
