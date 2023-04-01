@@ -8,7 +8,7 @@ import header from '../../images/Header-Img.png'
 
 function TopNav() {
   return (
-    <section className = "navContainer">
+    <section className="navContainer">
       <section className="topNav">
         <img src={wife} className="renLogo" alt="ren wife logo with sword" />
         <li>
@@ -37,10 +37,10 @@ function TopNav() {
           <Link to="/contact">CONTACT</Link>
         </li>
       </section>
-
+      <img src={spacer} className="spacer topSpacer" alt="colored spacer" />
       <img src={header} className="topNavImg" alt="logo" />
       <img src={spacer} className="spacer" alt="colored spacer" />
-      </section>
+    </section>
   );
 }
 

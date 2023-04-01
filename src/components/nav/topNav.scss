@@ -53,10 +53,15 @@
         box-shadow: 10px 10px 15px lightgrey;   
     }
 
+    .topSpacer {
+        margin-top:5%;
+        position:fixed;
+    }
+
         .topNavImg {
             width: 100vw;
             height: 30vh;
-            margin-top: 5%;
+            margin-top: 7%;
         }
 
 }
