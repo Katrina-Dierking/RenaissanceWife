@@ -1,20 +1,21 @@
 .events {
-    border: 1px solid black;
+  
     display:flex;
     flex-direction: column;
-    justify-content: space-evenly;
 }
-
 .eventsTop {
     display:flex;
     flex-direction: row;
     justify-content: space-evenly;
+    padding: 1%;
 }
 
 .eventsTop img {
-    width: 500px;
+    width: 350px;
     height: 500px;
-    border: 2px solid black;
+    border: 1px solid lightslategray;
+    box-shadow: 5px 5px 20px lightslategrey; 
+    margin-top:3%;
 }
 
 
@@ -32,4 +33,5 @@
 
 .eventsBut {
     width: 10%;
+    margin:3%;
 }

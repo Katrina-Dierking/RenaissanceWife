@@ -4,7 +4,7 @@ import './events.scss'
 
 import clemens from '../../images/MountClemens.png'
 import band from '../../images/bathtubBand.png'
-import writers from '../../images/writersGroup.png'
+import writers from '../../images/WritersPin.png'
 
 function Events() {
   return (
