@@ -1,3 +1,14 @@
+//mixins
+
+@mixin primaryColor {
+    color:#530000;
+}
+
+@mixin boxShadow {
+     box-shadow: 10px 10px 10px lightslategrey; 
+}
+
+
 
 /* // mobile */
 
@@ -14,7 +25,8 @@
  
         display:flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-evenly;
+        align-items: center;
         width: 90vw;
         height: 50vh;
         margin-top: -15%;
@@ -22,7 +34,7 @@
     }
 
     .main h2 {
-         color: #530000;
+         @include primaryColor;
          font-size: 36px;
     }
 
@@ -30,26 +42,41 @@
     .mainMiddle {
         display:flex;
         align-items: center;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: space-evenly;
-        width: 50vw;
+        width: 90vw;
         height: 40vh;
-        background-color: whitesmoke;
-        opacity: 0.7;
-        box-shadow: 10px 10px 15px lightgrey;   
+        padding: 2%;
      }
-
      .mainImg {
-        width: 25vw;
-        height: 50vh;
-         box-shadow: 10px 10px 10px lightslategrey; 
+        width: 30vw;
+        height: 60vh;
+        @include boxShadow();
      }
 
     .mainLeft {
-        width: 35vw;
+        width:60vw;
         padding: 2%;
         margin: 1%;
-        // box-shadow: 10px 10px 15px lightgrey;  
+              background-color: whitesmoke;
+        opacity: 0.7;
+        @include boxShadow();
     }
     
+
+    .imgBox {
+        display:flex;
+        flex-direction: column;
+        height: 50vh;
+    }
+
+    .imgBox h2 {
+        margin-top: 5%;
+    }
+
+    .definition {
+       border: 1px solid lightslategray;
+ 
+    }
+
 }

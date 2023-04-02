@@ -2,6 +2,8 @@
 import './App.scss';
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
+import './assets/colors.scss'
+
 import Home from './views/home/Home';
 import Events from './views/events/Events';
 import Contact from './views/contact/Contact';
