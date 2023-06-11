@@ -32,6 +32,7 @@ function TopNav() {
         <li>
           <Link to="/gallery">GALLERY</Link>
         </li>
+        
 
         <li>
           <Link to="/contact">CONTACT</Link>

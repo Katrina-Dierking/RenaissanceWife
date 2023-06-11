@@ -6,6 +6,7 @@ import Home from './views/home/Home';
 import Events from './views/events/Events';
 import Contact from './views/contact/Contact';
 import Gallery from './views/gallery/Gallery';
+import Shop from './views/shop/Shop'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path ="/contact" element={<Contact/>} />
           <Route path ="/events" element ={<Events />} />
           <Route path ="/gallery" element={<Gallery/>} />
+          <Route path="/shop" element={<Shop />} />
         </Routes>
       </BrowserRouter>
     </section>
