@@ -38,9 +38,12 @@ function TopNav() {
           <Link to="/contact">CONTACT</Link>
         </li>
       </section>
+      <div className='headerSpace'>
+      
       <img src={spacer} className="spacer topSpacer" alt="colored spacer" />
       <img src={header} className="topNavImg" alt="logo" />
       <img src={spacer} className="spacer" alt="colored spacer" />
+      </div>
     </section>
   );
 }

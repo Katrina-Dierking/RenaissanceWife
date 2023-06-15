@@ -58,15 +58,18 @@
 
     .topSpacer {
         margin-top:5%;
-        position:fixed;
+        // position:fixed;
         width: 95vw;
+        box-shadow: none;
     }
 
         .topNavImg {
-            width: 95vw;
-            height: 30vh;
-            margin-top: 7%;
-
+            width: 45vw;
+            height: 17vh;
         }
+
+    .headerSpace {
+        background-color: white;
+    }
 
 }
