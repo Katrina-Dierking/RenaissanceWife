@@ -24,15 +24,20 @@
 /* //desktop */
 @media screen  and (min-width: 768px) {
 
+    .homePage {
+    
+        align-items: start;
+    }
+
     .main {
  
         display:flex;
         flex-direction: row;
         justify-content: space-evenly;
-        align-items: center;
+        // align-items: center;
         width: 90vw;
-        height: 50vh;
-        margin-top: -15%;
+        // height: 50vh;
+        // margin-top: -15%;
         font-family:"Bona Nova";
     }
 
